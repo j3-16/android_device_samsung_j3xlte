@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/j3xlte/j3xlte.mk)
+$(call inherit-product, device/samsung/j3xlte/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := j3xlte

@@ -15,9 +15,5 @@
 # limitations under the License.
 #
 
-# Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/samsung/j3xlte/j3xlte-vendor.mk)
-
-# Inherit from sharkls-common
-$(call inherit-product, device/samsung/sharkls-common/sharkls.mk)
-
+# Inherit from j3x-common
+$(call inherit-product, device/samsung/j3x-common/common.mk)

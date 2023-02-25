@@ -1,7 +1,7 @@
 [
   {
-    "repository": "djeman/android_device_samsung_sharkls-common",
-    "target_path": "device/samsung/sharkls-common",
+    "repository": "j3-16/android_device_samsung_j3x-common",
+    "target_path": "device/samsung/j3x-common",
     "revision": "cm-14.1"
   }
 ]
